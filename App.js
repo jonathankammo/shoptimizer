@@ -6,7 +6,7 @@ export default class App extends React.Component {
     return (
       <ScrollView>
         <Text style={styles.titleText}>
-          {'\n'}Jon's Nest
+          {'\n'}raceShopper
         </Text>
       </ScrollView>
     );
