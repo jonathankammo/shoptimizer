@@ -1,0 +1,3 @@
+rootProject.name = 'jkStackathon'
+
+include ':app'
