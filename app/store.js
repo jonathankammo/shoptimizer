@@ -4,11 +4,15 @@ import { StyleSheet, Text, View, ScrollView, Image } from 'react-native';
 export default class App extends React.Component {
   render() {
     return (
-      <ScrollView>
-        <Text style={styles.titleText}>
-          {'\n'}raceShopper
+      <View style={styles.container}>
+        {/* <Text style={styles.titleText}>
+          raceShopper
+        </Text> */}
+        <Image source={require('./assets/grocery-store-layout.png')} />
+        <Text style={{ position: 'absolute', alignSelf: 'flex-start' }}>
+          {'                         '}o
         </Text>
-      </ScrollView>
+      </View>
     );
   }
 }
@@ -16,9 +20,9 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#f0f8ff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
   },
   titleText: {
     // fontFamily: 'Serif',
